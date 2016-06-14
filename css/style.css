@@ -1,0 +1,84 @@
+@font-face {
+font-family: 'DK Lemon Yellow Sun';
+src: url("../fonts/DK Lemon Yellow Sun.otf") format("opentype");
+}
+
+body {
+	text-align: center;
+}
+h1, h2, h3{
+  font-family: 'DK Lemon Yellow Sun', cursive;
+  text-decoration:underline;
+  margin-top: 1em;
+  margin-bottom:1em;
+}
+
+h1, h2 { 
+	font-size: 5em;
+}
+
+h3 {
+	font-size: 2.5em;
+}
+
+a, a:hover {
+	color:#000;
+}
+
+a:hover {
+	text-decoration: underline !important;
+}
+
+#menu {
+    font-family: 'DK Lemon Yellow Sun', cursive;
+	background-color: #fff;
+	font-size: 1.5em;
+}
+#abertura {
+	padding-top: 50px;
+}
+
+#abertura.poster img {
+	width:960px; 
+}
+
+#politica h2 {
+	text-align: left;
+	margin-bottom: -20px;
+}
+.caixa1 {
+	background-image: url('../imgs/caixa1.png');
+	width:540px;
+	height:519px;
+	padding-top:100px;
+}
+
+.caixa1 p {
+	width:490px;
+	margin: 0 auto;
+}
+
+.valor p {
+	text-align: justify;
+}
+.valor img {
+	height:180px;
+}
+
+.tecnologia p {
+	text-align: justify;
+}
+.tecnologia img {
+	height:120px;
+}
+
+.markun img {
+	height:320px;
+}
+#colajunto { 
+	background-color: #E3D46D;
+}
+#footer {
+	background-color: #000;
+	color:#fff;
+}
