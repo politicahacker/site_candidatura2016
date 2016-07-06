@@ -4,6 +4,7 @@ var $header = $('#menu');
 
 $().ready(function () {
 	$("#video-img").click(function (){
+	  $('#video-embed').show();
 		$('#video-img').fadeOut("slow", function(){
     	var div = $('');
     	$(this).replaceWith(div);

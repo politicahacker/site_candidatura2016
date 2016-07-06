@@ -222,6 +222,7 @@ p {
 	padding-bottom:45%;
 	display:inline-block;
 	position: relative;
+	background-color: #222;
 }
 
 #video-img, #video-embed {
@@ -230,6 +231,10 @@ p {
 	left:0;
 	width:100%;
 	height:100%;
+}
+
+#video-embed {
+  display: none;
 }
 
 #video-embed iframe, #video-img img {
