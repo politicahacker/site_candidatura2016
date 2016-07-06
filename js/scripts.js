@@ -4,9 +4,10 @@ var $header = $('#menu');
 
 $().ready(function () {
 	$("#video-img").click(function (){
-		$('#video-img img').fadeOut("slow", function(){
+		$('#video-img').fadeOut("slow", function(){
     	var div = '<iframe src="https://www.youtube.com/embed/oliAYl6853w?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-    	$(this).replaceWith(div);
+    	$(this).html(div);
+    	$('#video-img').show();
 	  });
   });
   

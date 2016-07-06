@@ -240,6 +240,20 @@ p {
 	height:100%;
 }
 
+#video-img .play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:block;
+    background-size: 100%;
+    background-image: url("../imgs/play.png");
+}
+#video-img .play:hover {
+    background-image: url("../imgs/play-hover.png");
+}
+
 .icon {
 	width:52px;
 	height:52px;
