@@ -151,6 +151,10 @@ p {
 	margin-bottom:0em;
 }
 
+.whitebox a {
+	text-decoration: underline;
+}
+
 .hovertext {
   height: 90%;
   margin: 5%;
