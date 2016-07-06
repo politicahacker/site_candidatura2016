@@ -3,12 +3,12 @@
 	
 }
 
-@media only screen and (max-width : 1200px) {
+/*@media only screen and (max-width : 1200px) {
 	.caixa1 {
 		background:none !important;
 		border:1px dotted #000;
 	}	
-}
+}*/
 
 @font-face {
 font-family: 'DK Lemon Yellow Sun';
@@ -64,15 +64,21 @@ p {
 	margin-bottom:1em;
 }
 .caixa1 {
-	background: url('../imgs/caixa1.png') top center no-repeat;
 	background-size: contain;
-	padding-top:7.5em;
-	margin-top:-2em;
-	text-align: justify;
+/*	padding-top:7.5em;*/
+/*	margin-top:-2em;*/
+  margin: 1em;
+	text-align: left;
+  border-style: solid;
+  border-width: 26px 27px 27px;
+  -moz-border-image: url("../imgs/caixa-tec.png") 26 27 27 stretch;
+  -webkit-border-image: url("../imgs/caixa-tec.png") 26 27 27 stretch;
+  -o-border-image: url("../imgs/caixa-tec.png") 26 27 27 stretch;
+  border-image: url("../imgs/caixa-tec.png") 26 27 27 stretch; 
 }
 
 .caixa1 p {
-	padding:0 2em 2em 2em;
+	padding:0.5em 1em 0.5em 1em;
 	font-size:1.5em;
 }
 
@@ -168,6 +174,7 @@ p {
 }
 
 .hovertext {
+  width: 90%;
   height: 90%;
   margin: 5%;
   background-color: rgba(0,0,0,0.6667);
