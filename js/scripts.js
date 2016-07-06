@@ -4,9 +4,8 @@ var $header = $('#menu');
 
 $().ready(function () {
 	$("#video-img").click(function (){
-	  $('#video-embed').show();
-		$('#video-img').fadeOut("slow", function(){
-    	var div = $('');
+		$('#video-img img').fadeOut("slow", function(){
+    	var div = '<iframe src="https://www.youtube.com/embed/oliAYl6853w?autoplay=1" frameborder="0" allowfullscreen></iframe>';
     	$(this).replaceWith(div);
 	  });
   });
