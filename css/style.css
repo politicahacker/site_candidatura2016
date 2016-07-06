@@ -225,7 +225,7 @@ p {
 	background-color: #222;
 }
 
-#video-img {
+#video-img, #video-embed {
 	position: absolute;
 	top:0;
 	left:0;
@@ -233,7 +233,7 @@ p {
 	height:100%;
 }
 
-#video-img iframe,
+#video-embed iframe,
 #video-img img {
 	display:block;
 	width:100%;

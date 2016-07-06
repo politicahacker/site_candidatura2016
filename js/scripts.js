@@ -4,11 +4,9 @@ var $header = $('#menu');
 
 $().ready(function () {
 	$("#video-img").click(function (){
-		$('#video-img').fadeOut("slow", function(){
-    	var div = '<iframe src="https://www.youtube.com/embed/oliAYl6853w?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-    	$(this).html(div);
-    	$('#video-img').show();
-	  });
+   	var div = '<div id="video-embed"><iframe src="https://www.youtube.com/embed/oliAYl6853w?autoplay=1" frameborder="0" allowfullscreen></iframe></div>';
+	  $(div).insertAfter(this);
+		$(this).fadeOut("slow");
   });
   
   $('a[href*=#]').click(function() {
