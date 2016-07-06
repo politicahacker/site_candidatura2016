@@ -6,19 +6,19 @@ src: url("../fonts/DK Lemon Yellow Sun.otf") format("opentype");
 body {
 	text-align: center;
 }
-h1, h2, h3{
+h1, h2, h3,h4 {
   font-family: 'DK Lemon Yellow Sun', cursive;
-  text-decoration:underline;
-  margin-top: 1em;
-  margin-bottom:1em;
+  margin-top: 0.5em;
+  margin-bottom:0.5em;
 }
 
-h1, h2 { 
+h1, h2, h3 { 
 	font-size: 5em;
+  text-decoration:underline;
 }
 
-h3 {
-	font-size: 2.5em;
+h3,h4 {
+	font-size: 3em;
 }
 
 a, a:hover {
@@ -28,11 +28,24 @@ a, a:hover {
 a:hover {
 	text-decoration: underline !important;
 }
+p {
+	font-size:1.1em;
+	padding:0 2em 1em;
+}
 
 #menu {
     font-family: 'DK Lemon Yellow Sun', cursive;
 	background-color: #fff;
 	font-size: 1.5em;
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus {
+	background-color:rgba(25,25,25,0.3333);
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color:rgba(25,25,25,0.666);
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color:rgba(255,255,255,0.666);	
 }
 #abertura {
 	padding-top: 50px;
@@ -41,40 +54,119 @@ a:hover {
 #abertura.poster img {
 	width:960px; 
 }
-
-#politica h2 {
-	text-align: left;
-	margin-bottom: -20px;
+.row {
+	margin-bottom:1em;
 }
 .caixa1 {
-	background-image: url('../imgs/caixa1.png');
-	width:540px;
-	height:519px;
-	padding-top:100px;
+	background: url('../imgs/caixa1.png') top center no-repeat;
+	background-size: contain;
+	padding-top:7.5em;
+	margin-top:-2em;
 }
 
 .caixa1 p {
-	width:490px;
-	margin: 0 auto;
+	padding:0 1.5em 2em 1.5em;
+	font-size:1.5em;
+}
+
+#carta {
+	margin:4em 0 -1em 6em;
 }
 
 .valor p {
 	text-align: justify;
 }
 .valor img {
-	height:180px;
+	height:220px;
 }
 
 .tecnologia p {
 	text-align: justify;
+	padding:0 1em 1em;
 }
 .tecnologia img {
 	height:120px;
 }
 
 .markun img {
-	height:320px;
+	height:250px;
+	margin-bottom:2em;
 }
+#videos .col-md-4, #projetos .col-md-3 {
+	background:center top no-repeat;
+	background-size: contain;
+	height:366px;
+	margin-bottom:1em;
+}
+#projetos .col-md-3 {
+	height:266px;
+}
+#videos .thumb1 {
+  background-image: url("../imgs/vid1.png");
+}
+#videos .thumb2 {
+  background-image: url("../imgs/vid2.png");
+}
+#videos .thumb3 {
+  background-image: url("../imgs/vid3.png");
+}
+#videos .thumb4 {
+  background-image: url("../imgs/vid4.png");
+}
+#videos .thumb5 {
+  background-image: url("../imgs/vid5.png");
+}
+#videos .thumb6 {
+  background-image: url("../imgs/vid6.png");
+}
+#projetos .thumb7 {
+  background-image: url("../imgs/projetos/projetos1.png");
+}
+#projetos .thumb8 {
+  background-image: url("../imgs/projetos/projetos2.png");
+}
+#projetos .thumb9 {
+  background-image: url("../imgs/projetos/projetos3.png");
+}
+#projetos .thumb10 {
+  background-image: url("../imgs/projetos/projetos4.png");
+}
+#projetos .thumb11 {
+  background-image: url("../imgs/projetos/projetos5.png");
+}
+#projetos .thumb12 {
+  background-image: url("../imgs/projetos/projetos6.png");
+}
+#projetos .thumb13 {
+  background-image: url("../imgs/projetos/projetos7.png");
+}
+#projetos .thumb14 {
+  background-image: url("../imgs/projetos/projetos8.png");
+}
+
+.hovertext {
+  height: 90%;
+  margin: 5%;
+  background-color: rgba(0,0,0,0.6667);
+	padding:2em 0;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.hovertext:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.hovertext a:hover, .hovertext a {
+  color: #FFFFFF;
+}
+
+
 #colajunto { 
 	background-color: #E3D46D;
 }
