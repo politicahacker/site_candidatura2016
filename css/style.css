@@ -62,15 +62,18 @@ p {
 	background-size: contain;
 	padding-top:7.5em;
 	margin-top:-2em;
+	text-align: justify;
 }
 
 .caixa1 p {
-	padding:0 1.5em 2em 1.5em;
+	padding:0 2em 2em 2em;
 	font-size:1.5em;
 }
 
 #carta {
 	margin:4em 0 -1em 6em;
+	z-index: 666;
+	position: relative;
 }
 
 .valor p {
@@ -144,6 +147,16 @@ p {
   background-image: url("../imgs/projetos/projetos8.png");
 }
 
+.whitebox {
+	background-color: #fff !important;
+	padding:2em;
+}
+
+.whitebox p {
+	padding:0.2em;
+	margin-bottom:0em;
+}
+
 .hovertext {
   height: 90%;
   margin: 5%;
@@ -169,6 +182,13 @@ p {
 
 #colajunto { 
 	background-color: #E3D46D;
+}
+
+#colajunto .lista {
+	text-align: center;
+}
+#colajunto li {
+	text-align: justify;
 }
 #footer {
 	background-color: #000;
