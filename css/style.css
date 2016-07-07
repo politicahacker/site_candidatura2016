@@ -198,17 +198,11 @@ p {
 
 
 #colajunto { 
-	background-color: #E3D46D;
+	background-color: #EEE;
 }
 
-#colajunto .lista {
-	text-align: center;
-	max-width: 50%;
-	margin:auto;
-}
-#colajunto li {
-	text-align: justify;
-	font-weight: bold;
+#colajunto img {
+	width:50%;
 }
 #footer {
 	background-color: #000;
