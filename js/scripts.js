@@ -9,10 +9,16 @@ $().ready(function () {
 		$(this).fadeOut("slow");
   });
   
-  $('a[href*=#]').click(function() {
+  $('li a[href*=#]').click(function() {
     $root.animate({
       scrollTop: $( $.attr(this, 'href') ).offset().top - $header.height()
     }, 500);
     return false;
+  });
+
+  $('#maisvideos').click(function (e) {
+  	e.preventDefault;
+  	$(this).hide();
+  	$("#videos .more").fadeIn("slow");
   });
 })
