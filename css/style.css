@@ -118,22 +118,22 @@ p {
 	height:266px;
 }
 #videos .thumb1 {
-  background-image: url("../imgs/vid1.png");
+  background-image: url("../imgs/videos/videos_tedxveropeso.png");
 }
 #videos .thumb2 {
-  background-image: url("../imgs/vid2.png");
+  background-image: url("../imgs/videos/videos_jogodapolitica.png");
 }
 #videos .thumb3 {
-  background-image: url("../imgs/vid3.png");
+  background-image: url("../imgs/videos/videos_oficina-proj-lei.png");
 }
 #videos .thumb4 {
-  background-image: url("../imgs/vid4.png");
+  background-image: url("../imgs/videos/videos_capital-natural.png");
 }
 #videos .thumb5 {
-  background-image: url("../imgs/vid5.png");
+  background-image: url("../imgs/videos/videos_labhackercd.png");
 }
 #videos .thumb6 {
-  background-image: url("../imgs/vid6.png");
+  background-image: url("../imgs/videos/videos_pnud.png");
 }
 
 #videos .more {
@@ -141,22 +141,22 @@ p {
 }
 
 #videos .thumb1.more {
-  background-image: url("../imgs/vid1.png");
+  background-image: url("../imgs/videos/videos_tv-senado.png");
 }
 #videos .thumb2.more {
-  background-image: url("../imgs/vid2.png");
+  background-image: url("../imgs/videos/videos_intercom.png");
 }
-#videos2 .thumb3.more {
-  background-image: url("../imgs/vid3.png");
+#videos .thumb3.more {
+  background-image: url("../imgs/videos/videos_camara-ligada.png");
 }
-#videos2 .thumb4.more {
-  background-image: url("../imgs/vid4.png");
+#videos .thumb4.more {
+  background-image: url("../imgs/videos/videos_ticolicos.png");
 }
-#videos2 .thumb5.more {
-  background-image: url("../imgs/vid5.png");
+#videos .thumb5.more {
+  background-image: url("../imgs/videos/videos_tedxcamara.png");
 }
-#videos2 .thumb6.more {
-  background-image: url("../imgs/vid6.png");
+#videos .thumb6.more {
+  background-image: url("../imgs/videos/videos_futebol.png");
 }
 
 #maisvideos { 
